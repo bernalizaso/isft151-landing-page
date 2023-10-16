@@ -1,0 +1,160 @@
+
+
+  /* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #010101;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    -webkit-text-fill-color: #fff;
+  }
+  
+  /* Estilos específicos */
+  h1 {
+    color: #333;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .oculto{
+    display: none;
+  }
+
+  .visible{
+    display: block;
+  }
+
+  .btn_menu{
+    position: absolute;
+    left: 00.6%;
+    top: 54%;
+    background-color: #0D8EA3;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+  }
+
+  .carrousel{
+    display: block ;
+    position: relative;
+    width: 1200px;
+    height: 400px;
+    background: url(imagen1.jpg);
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .img_{
+    position: absolute;
+    left: 38%;
+    top: 23%;
+    width: 200px;
+    height: 200px;
+  }
+
+
+  .carrera-box {
+  border: 2px solid #0074e4; /* Color del borde */
+  border-radius: 10px; /* Borde redondeado */
+  padding: 20px; /* Espaciado interno */
+  margin: 20px 0; /* Espaciado externo superior e inferior */
+  background-color: #f7f7f7; /* Color de fondo */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.carrera-box h2 {
+  color: #0074e4; /* Color del título */
+}
+
+.carrera-box a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  background-color: #0074e4; /* Color de fondo de los enlaces */
+  color: #fff; /* Color del texto de los enlaces */
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.carrera-box a:hover {
+  background-color: #0056a9; /* Cambio de color al pasar el mouse sobre los enlaces */
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-buttons{
+  display: flex;
+}
+
+.contact-b{
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+}
+
+.contact-b:hover{
+  width: 45px;
+  height: 45px;
+  transition: 0.3s;
+}
+
+.contact-b .img_contact{
+  width: 100%;
+  height: 100%;
+}
