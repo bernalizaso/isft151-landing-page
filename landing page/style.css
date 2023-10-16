@@ -75,20 +75,18 @@ body {
     display: block;
   }
 
-  .btn_menu{
+  .btn_menu {
     position: absolute;
-    left: 00.6%;
-    top: 54%;
+    left: 1%;
+    bottom: 43%;
     background-color: #0D8EA3;
     border: none;
     color: white;
     padding: 5px 10px;
   }
 
-  .carrousel{
-    display: block ;
-    position: relative;
-    width: 1200px;
+  .carrousel {
+    width: 100%;
     height: 400px;
     background: url(imagen1.jpg);
     background-size: cover;
@@ -102,6 +100,7 @@ body {
     width: 200px;
     height: 200px;
   }
+  
 
 
   .carrera-box {
@@ -157,4 +156,148 @@ footer{
 .contact-b .img_contact{
   width: 100%;
   height: 100%;
+}
+@media only screen and (min-width: 150px) and (max-width:300px) {
+  .carrousel {
+    height: 200px;
+  }
+
+  .btn_menu {
+    left: 2%;
+    bottom: 46%;
+  }
+
+  .carrera-box {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .contact-b {
+    flex: 0 0 30px;
+  }
+
+  .contact-b:hover {
+    flex: 0 0 35px;
+  }
+}
+
+@media only screen and (min-width: 376px) and (max-width:600px) {
+  .carrousel {
+    height: 200px;
+  }
+
+  .btn_menu {
+    left: 2%;
+    bottom: 60%;
+  }
+
+  .carrera-box {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .contact-b {
+    flex: 0 0 30px;
+  }
+
+  .contact-b:hover {
+    flex: 0 0 35px;
+  }
+}
+
+/* Medium devices (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .carrousel {
+    height: 300px;
+  }
+
+  .btn_menu {
+    left: 1%;
+    bottom: 64.5%;
+  }
+
+  .carrera-box {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .contact-b {
+    flex: 0 0 35px;
+  }
+
+  .contact-b:hover {
+    flex: 0 0 40px;
+  }
+}
+
+@media only screen and (min-width: 301px) and (max-width: 375px) {
+  .carrousel {
+    height: 200px;
+  }
+
+  .btn_menu {
+    left: 2%;
+    bottom: 52%;
+  }
+
+  .carrera-box {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .contact-b {
+    flex: 0 0 30px;
+  }
+
+  .contact-b:hover {
+    flex: 0 0 35px;
+  }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1023px) {
+  .carrousel {
+    height: 300px;
+  }
+
+  .btn_menu {
+    left: 1%;
+    bottom: 70%;
+  }
+
+  .carrera-box {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .contact-b {
+    flex: 0 0 35px;
+  }
+
+  .contact-b:hover {
+    flex: 0 0 40px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1080px) {
+  .carrousel {
+    height: 300px;
+  }
+
+  .btn_menu {
+    left: 1%;
+    bottom: 30%;
+  }
+
+  .carrera-box {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .contact-b {
+    flex: 0 0 35px;
+  }
+
+  .contact-b:hover {
+    flex: 0 0 40px;
+  }
 }
